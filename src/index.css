@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to right, #928dab, #1f1c2c);
+}
+input {
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+select {
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(52, 229, 170);
+  color: #1f1c2c;
+}
